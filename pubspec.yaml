@@ -1,0 +1,16 @@
+name: three_words
+description: Library contains over 8000 words. All of them are longer than three characters. It can returns words in random order, by length and sorted.
+version: 0.0.1
+author: Jakub Mirota <mirota.jakub@gmail.com>
+homepage: http://www.ekene.pl
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
