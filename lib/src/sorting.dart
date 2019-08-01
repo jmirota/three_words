@@ -1,3 +1,1 @@
-enum Sorting {
-  ascending, descending
-}
+enum Sorting { ascending, descending }

@@ -4,12 +4,14 @@ import 'package:three_words/src/sorting.dart';
 
 class Words {
   final _maxLength = 19;
+
   /// List of all words in ascending order.
   List<String> get all => _all;
 
   /// wordsLongerThan returns list of words with provider [length] and sorted by [sorting] which can be ascending or descending.
   /// Default [length] value is 3 and [sorting] is ascending.
-  List<String> wordsLongerThan({int length = 3, Sorting sorting = Sorting.ascending}) {
+  List<String> wordsLongerThan(
+      {int length = 3, Sorting sorting = Sorting.ascending}) {
     int filterValue = min(max(length, 0), _maxLength);
     List<String> words = _all;
 
@@ -31,8 +33,6 @@ class Words {
 
     return words;
   }
-
-
 
   final _all = [
     'aback',
@@ -10009,5 +10009,4 @@ class Words {
     'zoology',
     'zoom',
   ];
-
 }
