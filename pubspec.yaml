@@ -1,6 +1,6 @@
 name: three_words
 description: Library contains over 8000 words. All of them are longer than three characters. It can returns words in random order, by length and sorted.
-version: 1.0.0
+version: 1.0.1
 author: Jakub Mirota <mirota.jakub@gmail.com>
 homepage: https://www.ekene.pl
 
