@@ -1,3 +1,3 @@
-## [0.0.1] - TODO: Add release date.
+## [1.0.0] - Simple version
 
-* TODO: Describe initial release.
+Adds implementation of returning all words in List, words by given minimum length or random number of words in range (3:19)
